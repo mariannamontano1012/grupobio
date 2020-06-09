@@ -1,0 +1,275 @@
+
+
+/* Global styles
+-----------------
+colores
+
+{"Independence":"3F4360","Silver Sand":"BFC3C8","Old Lavender":"696679","Roman Silver":"858397","White":"FEFEFE"}
+
+
+
+
+body{
+background: url(/img/fondos21.png) no-repeat center fixed; 
+background-size: cover;
+
+}
+
+-------------------*/
+
+img{
+
+    width: 750px;
+
+}
+
+
+
+/* Barra de navegacion
+-----------------
+-------------------*/
+
+
+.barrasazules{
+
+    background-color: #3F4360;
+    padding: 15px;
+    color: white;
+    text-align: right;
+
+}
+
+
+
+
+/* 
+------------Branding----------------*/
+
+.abajo{
+
+    margin-top: 100px;
+    padding-top: 150px;
+}
+.parrafos{
+
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+.parrafospequenos{
+
+    border: 2px solid #696679;
+    padding: 10px;
+    border-radius: 25px;
+
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 5px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+    background-color: #696679;
+}
+
+.parrafospequenosdos{
+
+    border: 2px solid #696679;
+    padding: 10px;
+    border-radius: 25px;
+
+    padding: 10px;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    
+   
+    background-color: #93A8AC;
+}
+
+
+.boton {
+
+    color: white;
+    background: #084C61;
+  
+    padding: 15px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 50px;
+
+
+}
+
+.boton:hover{
+
+    background: transparent;
+    color:whitesmoke;
+    border: 2px solid #0099CC;
+
+}
+
+
+
+
+
+
+/* Mision Vision
+------------------------------------*/
+
+.misionyvision{
+
+    margin-top: 40px;
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #2E294E; 
+    color: white;
+    text-align: center;
+
+
+
+}
+
+
+
+.centrar{
+
+    text-align: center;
+    color: black;
+}
+
+
+
+
+.azulesdos{
+
+    margin-top: 200px;
+    font-size: 10px;
+    color: white;
+    text-shadow: 1px 1px 3px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+
+/* Clientes
+------------------------------------*/
+
+.clientes{
+
+    
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    
+
+}
+
+.cuadrado{
+
+    background-color:#696679;
+    color:white;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    
+}
+
+
+/* Nosotros
+------------------------------------*/
+
+
+.Nosotros{
+
+    text-align: center;
+    background-color:darkslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+
+
+/* portafolio
+------------------------------------*/
+
+.portafolio{
+
+    text-align: center;
+    background-color:#858397;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+
+}
+
+.abajodos{
+
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.abajotres{
+
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+
+.portafolioimagen{
+
+    width: 300px;
+
+}
+.footer{
+
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:darkslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:10px ;
+    padding-bottom: 10px;
+
+
+}
+
+/* portafolio
+------------------------------------*/
+
+.contactanos{
+
+
+    background-color: #4f6d7a;
+    text-align: center;
+    color: white;
+}
+
+.contactanos2{
+
+
+    background-color: #4f6d7a;
+   
+    color: white;
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Función JavaScript</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+	<script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#tabs-1').hide();
+		$('#tabs-2').hide();
+		$('#tabs-3').hide();
+
+		$('#enlace1').click(function(){
+			$('#tabs-1').show();
+			$('#tabs-2').hide();
+			$('#tabs-3').hide();
+		});
+
+		$('#enlace2').click(function(){
+			$('#tabs-2').show();
+			$('#tabs-1').hide();
+			$('#tabs-3').hide();
+		});
+
+		$('#enlace3').click(function(){
+			$('#tabs-3').show();
+			$('#tabs-2').hide();
+			$('#tabs-1').hide();
+		});
+	});
+</script>
+<body>
+	<div class="container">
+     			<div class="row">
+    				<div class="col-md-6">
+    					<div id="tabs">
+    						<ul class="nav nav-pills">
+    						<li role="presentation"><a href="#tabs-1" id="enlace1">Registro1</a></li>
+    						<li role="presentation"><a href="#tabs-2" id="enlace2">Registro2</a></li>
+    						<li role="presentation"><a href="#tabs-3" id="enlace3">Registro3</a></li>
+    					</div>
+    				</div>
+    				
+    				<div class="col-md-2">
+    					<div id="tabs-1">
+    						<h4>Registro1</h4>
+    						 <form id="t1" action="forma.php" method="post">
+    							Red: <input type="text" id="red" name="red">
+    							Codigo: <input type="text" id="codigo" name="codigo">
+    							<input class="btn btn-theme" type="submit" value="Registrar" name="registro1FormSubmitted" >
+    						 </form>
+    					</div>
+    
+    					<div id="tabs-2">
+    						<h4>Registro2</h4>
+    						 <form id="t2" action="forma.php" method="post">
+    							Nombre: <input type="text" id="nombre" name="nombre">
+    							Color: <input type="text" id="color" name="color">
+    							<input class="btn btn-theme" type="submit" value="Registrar" name="registro2FormSubmitted" >
+    						 </form>
+    					</div>
+    
+    
+    					<div id="tabs-3">
+    						<h4>Registro3</h4>
+    						 <form id="t3" action="forma.php" method="post">
+    							Onda: <input type="text" id="onda" name="onda">
+    							Tipo: <input type="text" id="tipo" name="tipo">
+    							<input class="btn btn-theme" type="submit" value="Registrar" name="registro3FormSubmitted" >
+    						 </form>
+    					</div>
+    				</div>
+    
+    			</div>
+    </div>
+</body>
+</html>

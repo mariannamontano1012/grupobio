@@ -4,7 +4,7 @@
 -----------------
 colores
 
-{"Independence":"3F4360","Silver Sand":"BFC3C8","Old Lavender":"696679","Roman Silver":"858397","White":"FEFEFE"}
+{"Independence":"3F4360","Silver Sand":"BFC3C8","Old Lavender":"696679","Roman Silver":"858397", "Gray Web":"807F84", "White":"FEFEFE"}
 
 
 
@@ -17,6 +17,12 @@ background-size: cover;
 
 -------------------*/
 
+
+body{
+
+    background-color: #203864;
+
+}
 img{
 
     width: 750px;
@@ -28,6 +34,17 @@ img{
 /* Barra de navegacion
 -----------------
 -------------------*/
+
+.barrasblancas{
+
+
+
+    background-color: white;
+    padding: 40px;
+    color: white;
+    text-align: right;
+
+}
 
 
 .barrasazules{
@@ -45,6 +62,30 @@ img{
 /* 
 ------------Branding----------------*/
 
+.rellenar{
+
+    background-color: #203864;
+
+}
+
+.branding2{
+
+    margin-top: 150px;
+    background-color: #203864;
+    padding: 10px;
+
+    transition: padding 2s;
+    
+  
+}
+
+
+.branding2:hover {
+    margin-top: 150px;
+    padding: 50px;
+    background-color:#203864;
+  }
+
 .abajo{
 
     margin-top: 100px;
@@ -61,19 +102,21 @@ img{
 
 .parrafospequenos{
 
-    border: 2px solid #696679;
-    padding: 10px;
-    border-radius: 25px;
 
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 15px;
-    color: white;
-    text-shadow: 1px 1px 5px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    font-size: 18px;
+    color:whitesmoke;
+    text-shadow: 1px 1px 10px black, 0 0 25px white, 0 0 5px grey;
+    background-color: #3F4360;
+    padding: 15px;
+    border: 2px solid #0099CC;
+    border-radius: 8px;
    
-    background-color: #696679;
+  
 }
 
 .parrafospequenosdos{
@@ -92,17 +135,32 @@ img{
     background-color: #93A8AC;
 }
 
+.desplazar {
+    width: 800px;
+    height: 400px;
+    background: #3F4360;
+    transition: width 3s;
+  }
+  
+  .desplazar:hover {
+    width: 1000px;
+    height: 400px;
+  }
+
 
 .boton {
 
     color: white;
-    background: #084C61;
-  
+    background: #807F84;
+    font-size: 30px;
     padding: 15px;
     border-radius: 4px;
     display: inline-block;
     margin-bottom: 50px;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    text-decoration: white;
+ 
 
 }
 
@@ -124,10 +182,10 @@ img{
 
 .misionyvision{
 
-    margin-top: 40px;
+    margin-top: 60px;
    
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background: #2E294E; 
     color: white;
     text-align: center;
@@ -163,8 +221,7 @@ img{
 
 .clientes{
 
-    
-    background-color: white;
+  
     color:black;
     text-align: center;
     padding: 10px;
@@ -175,7 +232,7 @@ img{
 
 .cuadrado{
 
-    background-color:#696679;
+    background-color:#3F4360;
     color:white;
     text-align: center;
     padding: 40px;
@@ -222,8 +279,8 @@ img{
 
 .abajodos{
 
-    margin-top: 50px;
-    padding-top: 50px;
+    margin-top: 30px;
+    padding-top: 40px;
 }
 
 .abajotres{
@@ -251,6 +308,17 @@ img{
     padding-top:10px ;
     padding-bottom: 10px;
 
+
+}
+
+
+.tarjetas{
+    padding-top: 20px;
+    border: 2px solid #696679;
+    
+    border-radius: 25px;
+ 
+    background-color: #3F4360;
 
 }
 
